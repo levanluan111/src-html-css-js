@@ -1,0 +1,95 @@
+/* 
+selector{
+    property: value;
+}
+
+selector:
+tag: p, div, h1, main, a, span
+Class: .demo, .header, .boy
+ID: #container, #footer
+
+property: color, background-color
+value: red, orange, yellow
+ */
+
+ p {
+    color: rgb(0,0,0);
+    color: rgba(0,0,0,0.5); 
+ }
+
+ .backgroud {
+    width: 100px;
+    /* height: 100px; */
+    min-height: 100px;
+    background-color: #2979ff;
+    /* thuộc tính lấy chiều dài của chữ */
+    /* overflow: hidden; */
+    /* overflow-y: auto;  */
+ }
+
+ .backgroud2{
+    /* thuốc tính thêm ảnh  */
+    /* background-image: url("https://images.unsplash.com/photo-1719937206109-7f4e933230c8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: 100%;
+    height: 1000px;
+    /* thuộc tính cho ảnh chính giữa  */
+    /* background-position: center center;
+    background-size: cover;
+    /* thuốc tính không lặp lại ảnh  */
+    /* background-repeat: no-repeat;
+    /* thuộc tính cho hình đứng yên */
+    /* background-attachment: fixed; */
+    /* rút gọn */
+    /* width: 100%;
+    height: 1000px; */
+    background: red 
+    url("https://images.unsplash.com/photo-1719937206109-7f4e933230c8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center / cover; 
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+html{
+    font-size: 125%;
+}
+
+/* font-size: 100% = 16px */
+/* 1em = 1rem = 16px */
+
+.em{
+    width: 10em;
+    height: 10em;
+    background-color: yellow;
+    font-size: 32px;
+    /* đơn vị em là đơn vị phụ thuộc vào tính font-size của chính nó hoặc phần tử chứa nó */
+}
+
+.rem{
+    width: 10rem;
+    height: 10rem;
+    background-color: orange;
+    font-size: 32px;
+    /* tạo viền cho khung  */
+    /*border: border-width, border-style, border-coler */
+    /* border: 2px solid black;
+    border-top: 2px solid red;
+    border-right: 5px solid pink;
+    border-bottom: 10px solid blue;
+    border-left: 15px solid purple; */
+    /* bo góc */
+    border: 5px solid black;
+    border-radius: 10px;
+    /* bo góc theo phía */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* bo thành hình tròn */
+    border-radius: 50%;
+    /*rem là đơn bị phụ thuộc vào thuộc tính font-size của thẻ html*/
+}
+/* 100% - 16px
+    ?% = 10px
+    ? = 62.5%
+*/
