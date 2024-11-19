@@ -1,0 +1,20 @@
+body {
+  background: url(../img/anh6);
+  /* background-position: center center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+  background-position-y: -80px;
+}
+/* chỉnh căn giữa của form */
+#wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form-login {
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.5);
+  /* mở size */
+  flex-grow: 1;
+}
